@@ -1,0 +1,124 @@
+.auth-wrapper {
+  width: 1440px;
+  height: 822px;
+  padding-top: 150px;
+  background: linear-gradient(360deg, #211f20 0%, #44403f 100%);
+  color: white;
+}
+
+.auth-content {
+  width: 500px;
+  height: 400px;
+  margin: auto;
+  padding: 50px 0px 0px 100px;
+  background: linear-gradient(90deg, #494544 0%, #504b4a 100%);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-family: "Inter", sans-serif;
+  font-size: 10px;
+  h1 {
+    margin: 10px 0px 30px 110px;
+  }
+  Button {
+    margin-left: 30px;
+  }
+}
+
+.auth-footer {
+  width: 155px;
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0px 0px 55px;
+  font-size: 9px;
+  p {
+    color: #ffffff80;
+  }
+}
+
+.auth-input {
+  width: 280px;
+  height: 40px;
+  background: inherit;
+  border: 1px solid #706f6f;
+  border-radius: 6px;
+  outline: none;
+  padding-left: 15px;
+  margin: 8px 0px 20px 0px;
+  font-size: 17px;
+  color: white;
+}
+.auth-txt {
+    margin: 0;
+    padding: 0;
+    p {
+     
+    font-size: 17px;
+    }
+  }
+.auth-text {
+    margin: 0;
+    padding: 0;
+    p {
+     
+    font-size: 17px;
+    }
+  }
+@media only screen and (max-width: 375px) {
+  .auth-wrapper {
+    width: 375px;
+    padding: 0;
+    background: linear-gradient(360deg, #211f20 0%, #44403f 100%);
+  }
+  .auth-content {
+    width: 200px;
+    margin: 0;
+    padding: auto;
+    background: none;
+    h1 {
+      margin: 0;
+      padding: 20px 0px 20px 70px;
+    }
+    button {
+      margin: 5px 0px 0px 30px;
+    }
+  }
+  .auth-input {
+    width: 200px;
+    margin-top: 5px;
+  }
+  .auth-footer {
+    width: 90px;
+    font-size: 5px;
+    margin: 5px 0px 0px 55px;
+  }
+  .auth-txt {
+    width: 200px;
+    margin: 0;
+    padding: 0;
+    p {
+        font-size: 15px;
+      padding-left: 30px;
+    }
+  }
+  .auth-text {
+    margin: 0;
+    padding: 0;
+    p {
+      padding-left: 70px;
+    font-size: 15px;
+    }
+  }
+}
+
+// input:-webkit-autofill {
+//  background: red;
+// }
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px #494544  inset !important;
+    color: white;
+}

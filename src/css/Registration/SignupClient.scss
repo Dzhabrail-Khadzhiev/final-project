@@ -1,0 +1,127 @@
+.client-wrapper {
+  width: 1440px;
+  height: 822px;
+  padding-top: 80px;
+  background: linear-gradient(360deg, #211f20 0%, #44403f 100%);
+}
+
+.client-up {
+  width: 500px;
+  height: 650px;
+  margin: auto;
+  background: linear-gradient(90deg, #494544 0%, #504b4a 100%);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-family: "Inter", sans-serif;
+  font-size: 10px;
+}
+
+.client-input {
+  background: inherit;
+  border: 1px solid #706f6f;
+  border-radius: 6px;
+  width: 200px;
+  height: 30px;
+  outline: none;
+  padding-left: 10px;
+  margin: 8px 0px 20px 0px;
+  font-size: 14px;
+  color: white !important;
+}
+
+.client-content {
+  width: 200px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.header-btn {
+  width: 265px;
+  display: flex;
+  justify-content: space-between;
+  button {
+    background: inherit;
+    width: 130px;
+    height: 45px;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid #618967;
+    font-family: "Open Sans", sans-serif;
+  }
+  :hover {
+    background: linear-gradient(180deg, #618967 0%, #72a479 100%);
+    width: 130px;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+  }
+}
+
+.header-auth {
+  width: 125px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  p {
+    color: #ffffff80;
+  }
+}
+
+.header-p {
+  width: 300px;
+  margin: 20px 100px 0px 0px;
+  font-size: 25px;
+}
+
+form {
+  margin: 15px 0px 0px 33px;
+}
+
+@media only screen and (max-width: 375px) {
+  .client-wrapper {
+    width: 375px;
+    background: linear-gradient(360deg, #211f20 0%, #44403f 100%);
+    margin: 0;
+    padding: 0;
+  }
+  .client-up {
+    background: none;
+  }
+  .client-content {
+    margin: 0;
+    padding: 0;
+  }
+  form {
+    margin: 20px 0px 0px 80px;
+    padding: 0;
+  }
+  .header-p {
+    display: none;
+  }
+  .header-btn {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px 0px 150px;
+  }
+  .client-input {
+    width: 200px;
+    height: 30px;
+  }
+
+  .signup-btn {
+    margin: 5px 0px 0px 30px;
+  }
+  .header-auth {
+    display: none;
+  }
+}
