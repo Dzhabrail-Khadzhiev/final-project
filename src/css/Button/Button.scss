@@ -1,0 +1,21 @@
+.signup-btn {
+  width: 140px;
+  height: 30px;
+  background: inherit;
+  border: 1px solid #618967;
+  border-radius: 10px;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+
+  :hover {
+    width: 140px;
+    height: 30px;
+    background: linear-gradient(114.93deg, #618967 5.11%, #72a479 94%);
+    border: none;
+    border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
+  padding: 5px 2px 5px 0px;
+  }
+}
+
+
